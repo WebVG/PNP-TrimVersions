@@ -21,10 +21,7 @@
 #>
 
 # Text log path (optional, separate from CSV)
-param(
-    ...
-    [string]$TextLogPath = "./SPO-TrimVersions.log"
-)
+param([string]$TextLogPath = "./SPO-TrimVersions.log")
 
 function Write-TrimEvent {
     param(
