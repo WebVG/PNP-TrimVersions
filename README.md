@@ -10,16 +10,32 @@ Safely delete SharePoint File Versions only with this tool using PNP
 - Invoke-PnPVersionTrimTool -OlderThanDays 60 -Delete
 - Delete
 
-##### Parameters
+# Parameters
 - No Batch
 - Invoke-PnPVersionTrimTool -OlderThanDays 45 -Delete -BypassBatching
 - With Logs
 - Invoke-PnPVersionTrimTool -OlderThanDays 10 -LogPath .\trim-log.csv
 - Multi Libraries
 - Invoke-PnPVersionTrimTool -OlderThanDays 10 -LibraryCsvPath .\libs.csv
+  
+- Invoke-PnPVersionTrimTool
+    [-OlderThanDays <int>]
+    [-LibraryTitle <string>]
+    [-LibraryCsvPath <string>]
+    [-Delete]
+    [-LogPath <string>]
+    [-TextLogPath <string>]
+    [-BatchPercent <int>]
+    [-MaxBatchMinutes <int>]
+    [-AutoContinue]
+    [-BypassBatching]
+    [-VersionBatchSize <int>]
+    [-VersionBatchPauseMs <int>]
+    [-MaxRetries <int>]
 
 
-.csv 
+
+.csv example
 - LibraryTitle
 - Documents
 - Finance Team
