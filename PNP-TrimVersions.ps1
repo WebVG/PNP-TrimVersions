@@ -1,3 +1,4 @@
+
 <#
 .SYNOPSIS
   Safe SharePoint Online version trim tool using PnP.PowerShell only.
