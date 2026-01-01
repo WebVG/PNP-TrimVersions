@@ -47,3 +47,7 @@ Safely delete SharePoint File Versions only with this tool using PNP
 ### one or multi libraries via .csv
 ### 25% or 5min batch and Auto
 
+### Bugs - too many unmanaged versions (2)
+### written to allow tokenizne or app perms. for big zero automation | this shouldn't be able to do that maybe?
+#### 
+
